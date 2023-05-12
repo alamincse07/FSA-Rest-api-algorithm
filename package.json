@@ -1,0 +1,30 @@
+{
+  "name": "fsa-rest-api-algorithm",
+  "version": "1.0.0",
+  "description": "A simple express API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alamincse07/FSA-Rest-api-algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alamincse07/FSA-Rest-api-algorithm/issues"
+  },
+  "homepage": "https://github.com/alamincse07/FSA-Rest-api-algorithm#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.22"
+  }
+}

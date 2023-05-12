@@ -1,0 +1,13 @@
+// Home
+GET http://localhost:3000/
+
+###
+// random Value generate
+GET http://localhost:3000/random-number?start=1&end=23
+
+###
+// Profile Person
+GET http://localhost:3000/generate-profile?properties=firstName,lastName,email,age,address,avatar
+
+### Charcter count
+GET http://localhost:3000/count-character-in-string?string=masudf d@ks#han .2023%''
